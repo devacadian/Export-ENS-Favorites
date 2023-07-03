@@ -1,4 +1,4 @@
-# {Export ENS Favorites - Chrome Extension}
+# Export ENS Favorites - Chrome Extension
 A chrome extension used to export ENS favorites from local storage of the legacy.ens.domains app to a .txt file for safe keeping.
 
 
