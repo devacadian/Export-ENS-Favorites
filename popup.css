@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&display=swap');
+
+body {
+  background: #22222d;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #52525b;
+  width: 300px;
+  font-family: Arial, sans-serif;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+img.logo {
+  width: 100px;
+  height: 100px;
+  object-fit: contain;
+  margin-bottom: 40px;
+  margin-top: 50px;
+}
+
+button {
+  background: linear-gradient(135deg, #F49E0B, #FACC14);
+  border: none;
+  color: black;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.twitter-icon {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.info-icon {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 24px;
+  height: 24px;
+}
+
+.tooltip {
+  visibility: hidden;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 5px;
+  border-radius: 4px;
+  position: absolute;
+  top: 40px;
+  right: 8px;
+  z-index: 1;
+  font-size: 12px;
+  width: 200px;
+}
+
+.info-icon:hover + .tooltip {
+  visibility: visible;
+}
+
+.import-text {
+  font-size: 14px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+.import-link {
+  text-decoration: underline;
+  color: #fbbf24;
+}
+
+.bold {
+  font-weight: 600;
+}
